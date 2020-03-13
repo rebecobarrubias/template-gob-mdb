@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Template base</title>
+    <title>TEMPLATE GOBIERNO</title>
     <!--  Font Awesome  -->
     <link rel="stylesheet" href="css/all.css">
     <!-- Bootstrap core CSS -->
@@ -17,7 +17,148 @@
 </head>
 
 <body>
+    <!-- Menu gob -->
+    <nav id="menu-gob" class="navbar navbar-expand-lg navbar-light fixed-top" style="height: 60px; background-color: #0C231E;">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.gob.mx/">
+                <img src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" alt="Pagina de inicio, Gobierno de México" width="128" height="48">
+            </a>
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="fa fa-navicon" style="color:#fff"></i></span>
+    
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+    
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://www.gob.mx/tramites">Trámites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="https://www.gob.mx/gobierno">Gobierno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.gob.mx/busqueda">
+                            <i class="fa fa-search" style="color:white"></i> </a>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    
+    </nav>
+    <!-- Navbar -->
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark fixed-top primary-color" style="height: 60px; top: 60px;">
+        <a class="navbar-brand" href="#">Libros del Rincón</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" [routerLink]="['/Homec']" routerLinkActive="router-link-active" >Colección
+                <span class="sr-only">(current)</span>
+              </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/Homep']" routerLinkActive="router-link-active" >Proceso de Selección</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/Homei']" routerLinkActive="router-link-active" >Instalación, uso y aprovechamiento</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/Homed']" routerLinkActive="router-link-active" >Difusión
+              </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/Homeca']" routerLinkActive="router-link-active" >Catálogo</a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['/Homeb']" routerLinkActive="router-link-active"  class="nav-link">BAM</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto nav-flex-icons">
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link waves-effect waves-light">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar -->
 
+    <!-- Contenido -->
+    <div class="container-fluid">
+
+    </div>
+    <!-- Contenido-->
+
+    <!-- Footer -->
+    <footer class="main-footer fixed-bottom">
+        <div class="list-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3"><img data-v-9e928f9a="" src="https://framework-gb.cdn.gob.mx/landing/img/logoheader.svg" href="/" alt="logo gobierno de méxico" class="logo_footer" style="max-width: 90%;"></div>
+                    <div class="col-sm-3">
+                        <h5>Enlaces</h5>
+                        <ul>
+                            <li><a href="https://participa.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Participa</a></li>
+                            <li><a href="https://www.gob.mx/publicaciones" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Publicaciones Oficiales</a></li>
+                            <li><a href="http://www.ordenjuridico.gob.mx" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Marco Jurídico</a></li>
+                            <li><a href="https://consultapublicamx.inai.org.mx/vut-web/" target="_blank" rel="noopener" title="Enlace abre en ventana nueva">Plataforma Nacional de Transparencia</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5>¿Qué es gob.mx?</h5>
+                        <p>Es el portal único de trámites, información y participación ciudadana. <a href="https://www.gob.mx/que-es-gobmx">Leer más</a></p>
+                        <ul>
+                            <li><a href="https://datos.gob.mx">Portal de datos abiertos</a></li>
+                            <li><a href="https://www.gob.mx/accesibilidad">Declaración de accesibilidad</a></li>
+                            <li><a href="https://www.gob.mx/privacidadintegral">Aviso de privacidad integral</a></li>
+                            <li><a href="https://www.gob.mx/privacidadsimplificado">Aviso de privacidad simplificado</a></li>
+                            <li><a href="https://www.gob.mx/terminos">Términos y Condiciones</a></li>
+                            <li><a href="https://www.gob.mx/terminos#medidas-seguridad-informacion">Política de seguridad</a></li>
+                            <li><a href="https://www.gob.mx/sitemap">Mapa de sitio</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3">
+                        <h5><a href="https://www.gob.mx/tramites/ficha/presentacion-de-quejas-y-denuncias-en-la-sfp/SFP54">Denuncia contra servidores públicos</a></h5>
+                        <h5>Síguenos en</h5>
+                        <ul class="list-inline">
+                            <li>
+                                <a class="social-icon facebook" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://www.facebook.com/gobmexico" aria-label="Facebook de presidencia"></a>
+                            </li>
+                            <li>
+                                <a class="social-icon twitter" target="_blank" rel="noopener" title="Enlace abre en ventana nueva" href="https://twitter.com/GobiernoMX" aria-label="Twitter de presidencia"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid footer-pleca">
+            <div class="row">
+                <div class="col"><br><br></div>
+            </div>
+        </div>
+    </footer>
+
+     
 
     <!--  SCRIPTS  -->
     <!-- JQuery -->
